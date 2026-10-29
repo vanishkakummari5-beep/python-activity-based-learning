@@ -1,5 +1,5 @@
 Smart Campus Incident and Maintenance Prioritization
-1. Problem Statement
+1. PROBLEM STATEMENT
 Develop a Python program to classify campus maintenance incidents based on severity, location, and reported frequency. The program should assign priority levels, rank incidents using predefined rules, and generate a summary of High, Medium, and Low priority incidents.
 
 Priority Rules:
@@ -8,7 +8,7 @@ Priority Rules:
 - Low: All other incidents.
 - Rank incidents by priority first, then severity, and then reported frequency.
   
-2. Algorithm
+2. ALGORITHM
 1. Start.
 2. Enter the number of incidents.
 3. Enter the incident name, severity, location, and frequency.
@@ -22,7 +22,7 @@ Priority Rules:
 11. Display the priority summary.
 12. Stop.
     
-3.  Flowchart
+3. FLOWCHART
 ```mermaid
   flowchart TD
     A([Start]) --> B[/Enter incident details/]
@@ -44,14 +44,7 @@ Priority Rules:
     M --> N[/Display results/]
     N --> O([Stop])
 
-
-
-
-
-
-
-
-5. Sample Input
+5. SAMPLE INPUT
 Enter number of incidents: 3
 
 Incident 1
@@ -72,7 +65,7 @@ Enter severity (High/Medium/Low): Low
 Enter location: Classroom
 Enter reported frequency: 1
 
-6. Sample Output
+6. SAMPLE OUTPUT
 --- Ranked Incident List ---
 
 Rank: 1
@@ -96,9 +89,9 @@ Location: Classroom
 Frequency: 1
 Priority: Low
 
---- Priority Summary ---
+---PRIORITY SUMMARY---
 High Priority: 2
 Medium Priority: 0
 Low Priority: 1
 Total Incidents: 3
-
+EXPLANATION:Water leakage recieves the highest priority because of its high severity,critical location,and repeated reporting.
