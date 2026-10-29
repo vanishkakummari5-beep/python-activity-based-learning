@@ -47,6 +47,11 @@ flowchart TD
     J --> K[/Display bills and summary/]
     K --> L([Stop])
 
+
+
+
+
+
 ## 5. Sample Input
 
 ```text
